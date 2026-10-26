@@ -1,4 +1,29 @@
 # dio-lab-assistente-investimentos-rpa-n8n-desafioF
+
+Desafio Final — Assistente de Investimentos com RPA e n8n
+
+Objetivo: desenvolver um protótipo educacional de automação integrando Python, extração de dados HTML, validação de informações e orquestração de processos no n8n.
+
+Problema: demonstrar como automatizar a coleta e o processamento de dados fictícios de clientes, reduzindo etapas manuais e padronizando a saída de informações.
+
+Solução proposta: utilizar Python e BeautifulSoup para extrair os registros de uma página HTML, validar e normalizar os campos e encaminhar os dados em JSON para um webhook HTTP. No n8n, o fluxo consulta uma base CSV de opções cadastradas, realiza o cruzamento por perfil e retorna os resultados em formato estruturado.
+
+Tecnologias: Python, Requests, BeautifulSoup, Google Colab, n8n, Webhooks HTTP, JSON, CSV e GitHub.
+
+Decisões técnicas: priorização de um MVP determinístico, com validação de dados, tratamento de erros, timeout nas requisições e separação entre extração e processamento. A integração com IA generativa foi planejada como melhoria opcional, após a validação do fluxo básico.
+
+Repositório: https://github.com/MychelleJacob/dio-lab-assistente-investimentos-rpa-n8n
+
+Notebook: rpa/extrair_clientes.ipynb
+
+Workflow: n8n/workflow.json
+
+Próximas etapas: validar a importação e a execução do workflow na instância n8n utilizada, registrar evidências reais, concluir os testes de integração e documentar eventuais ajustes.
+
+Limitação: trata-se de um protótipo educacional com dados fictícios. Não constitui recomendação financeira nem sistema validado para uso comercial.
+
+
+
 Desafio Final DIO + Santander — Assistente de Investimentos com RPA e n8n de forma segura, didática e verificável.
 
 1. Precisa estar pronto antes da entrega
